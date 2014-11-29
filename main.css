@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#Banner {
+	height: 125px;
+	width: 1024px;
+}
+#topNavigation {
+	height: 45px;
+	width: 1024px;
+	
+}
+#main {
+	height: 500px;
+	width: 1024px;s
+}
+#Sub1 {
+	height: 448px;
+	width: 377px;
+	float: left;
+}
+#Sub2 {
+	height: 448px;
+	width: 522px;
+	float: none;
+	text-align:center;
+}
+#footer {
+	height: 35px;
+	width: 1024px;
+}
+
+
+#login {
+	height: 270px;
+	width: 160px;
+	float:left;
+}
+#dateTimeValue {
+	height: 45px;
+	width: 1024px;
+	text-align:left;
+	
+	
+	
+	
+}
+</style>
