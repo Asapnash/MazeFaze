@@ -26,9 +26,20 @@
 	float: none;
 	text-align:center;
 }
+
+#Sub2news {
+	height: 448px;
+	width: 522px;
+	float: none;
+	text-align: center;
+	
+}
+
 #footer {
 	height: 35px;
 	width: 1024px;
+	bottom:0;
+	
 }
 
 
