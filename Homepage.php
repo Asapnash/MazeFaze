@@ -105,7 +105,13 @@
 
 
   	<div id="Sub1"><!-------Main Sub 1 Container------------>
-
+    
+<?php
+			require_once 'framework/config.php';
+			mysql_connect(DB_HOST, DB_USER, DB_PASSWORD) or die(mysql_error());
+			mysql_select_db(DB_DATABASE) or die(mysql_error());
+		?>
+        
 		<div id="Login">
 		  <table width="150" height="270" border="1" style=" margin-left:50%;">
 			  <tr>
@@ -117,6 +123,8 @@
    							<input type="submit" value="Login"/>
 							</form>
     						<br>  
+                            
+                            
     						<a href="#">SignUp</a>
     						<br>
    							<a href="#">Forgotten Password</a>

@@ -1,0 +1,34 @@
+<?php 
+
+Function getConnection() {
+
+    $host = 'localhost' ;
+    $dbUser ='root';
+    $dbPass ='';
+    $dbName ='site';
+
+    // create a new database object
+    $db = new MySQL($host , $dbUser , $dbPass , $dbName );
+    return $db;
+}
+
+Function getDatabase() {
+	$db = getConnection();
+    $db->selectDatabase();
+	return $db;
+}
+
+Function getNewDatabase() {
+
+ 	$db = getConnection();
+    // drop the database and then create it again
+	$db->dropDatabase();
+	$db->createDatabase();
+
+	// select the database
+	$db->selectDatabase();
+	return $db;
+}
+
+
+?>
