@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maze Faze</title>
+
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+function Validation()
+{ var x= document.forms["myForm"]["firstname"].value;
+
+  if (x==null || x=="")
+     {
+      alert("Please enter first name");
+      return false;
+     }
+
+}
+
+</script>
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1><a href="#">Nash Company</a></h1>
+</div>
+
+<div id="menu">
+<ul>
+
+
+<li class="index.html"><a href="index.html">Home</a></li>
+<li><a href="vr.html">Virtual reality</a></li>
+<li><a href="chrome.html">Google chrome</a></li>
+<li><a href="sport.html" class="first">sport</a></li>
+<li><a href="contact.html">contact</a></li>
+<li><a href="quiz.html">QUIZ</a></li>
+
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right">
+
+
+<div class="articles">
+<img src="contact.gif" alt="home pic" style="border: 3px solid #ccc;" />
+<br /><br />
+<h2> Contact</h2>
+<p>To contact Nash Company for more information fill out the form below.</p>
+</div>
+
+<div class="articles">
+
+<h2> Write to us </h2>
+
+ <form name="myForm" onsubmit="return Validation()" action="mailto:wiliam.williams@live.com" method="post">
+
+First name: <input type="text" name="firstname" /><br />
+Last name: <input type="text" name="lastname" />
+
+
+
+<p> What is your sex</p>
+
+<input type="checkbox" name="sex" value="male" /> male<br />
+<input type="checkbox" name="sex" value="female" /> female
+
+
+
+<p> Do you have any complaints about the website?</p>
+
+
+<input type="radio" name="boolean" value="Yes" /> YES<br />
+<input type="radio" name="boolean" value="NO" /> NO
+
+
+Write comments here: <br>
+<textarea name="comments" rows="13" cols="40"></textarea><br><br>
+
+
+  <input type = "reset" value = "Clear Your Entries">
+   <input type="submit" value="submit" onclick="funcky()">
+  </form>
+<script type=text/javascript">
+function funky()
+    {
+     alert("make sure all parts are filled in correctly!!"):
+    }
+    </script>
+
+
+
+
+
+</div>
+</div>
+
+<div class="left">
+
+<h2>Links</h2>
+<ul>
+<li><a href="http://www.google.com/chrome/">Google Chrome</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Virtual_reality">Virtual Reality</a></li> 
+<li><a href="http://www.bbc.co.uk/sport/0//en">Sport</a></li>
+<li><a href="http://www.acmilan.com/en">Ac Milan</a></li>
+</ul>
+
+ <h2>Requirements :</h2>
+<ul>
+<li><a href="quiz.html">Quiz Form</a></li>
+<li><a href="contact.html">contact form</a></li>
+<li><a href="index.html">Javascript Date</a></li>
+<li><a href="vr.html">Javascript slider</a></li>
+
+</ul>
+
+<form>
+<input name="bgc" value="change menu colour"
+onclick="document.getElementById('menu').style.backgroundColor='orange'" type="button">    <!--javascript-->
+
+</form>
+
+
+</div>
+<div style="clear: both;"> </div>
+</div>
+
+<div id="footer">
+<p>Nash company 2014</p>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+
+</SCRIPT>
+
+
+</body>
+</html>
+
+
