@@ -25,6 +25,16 @@
 	width: 522px;
 	float: none;
 	text-align:center;
+
+}
+
+#Sub2contact {
+	height: 448px;
+	width: 522px;
+	float: left;
+	text-align:center;
+	
+	
 }
 
 #Sub2news {
@@ -52,9 +62,9 @@
 	height: 45px;
 	width: 1024px;
 	text-align:left;
-	
-	
-	
-	
+		
 }
+ 
+
+	
 </style>
