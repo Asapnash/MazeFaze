@@ -34,7 +34,7 @@
  	
 <div id="topNavigation"><!-------Top Navigation Container------------>
 	<ul id="MenuBar1" class="MenuBarHorizontal">															 			
-		<li><a href="Homepage.html">Home</a></li>
+		<li><a href="Homepage.php">Home</a></li>
         
   		<li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
    			<ul>
