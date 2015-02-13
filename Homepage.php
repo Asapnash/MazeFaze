@@ -109,7 +109,7 @@
 		<div id="Login">
         
         
-		  <table width="150" height="270" border="1" style=" margin-left:5%;">
+		  <table width="150" height="270"  style=" margin-left:5%;">
 			  <tr>
      		 		<td width="137">
 <form method='post' action='login.php'>
