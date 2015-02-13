@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -107,7 +108,7 @@
   	<div id="Sub1"><!-------Main Sub 1 Container------------>
 
 		<div id="Login">
-        
+         
         
 		  <table width="150" height="270"  style=" margin-left:5%;">
 			  <tr>
@@ -125,16 +126,25 @@
 	     <td align='center'>Password:</td>
 		 <td> <input type='Password' name='pass' /></td>
      </tr>
+     
+     
      <tr>
-	     <td colspan='6' align='center'><input type='submit' name='login' value='Login' /></td>
+     
+   
+     
+	     <td colspan='6' align='center'><br><input type='submit' name='login' value='Login' />
+        <br><br>
+          <font size='4'>Not registered yet? 
+     <br>
+     <a href='registration.php'>Sign Up Here</a>
+     </font></td>
      </tr>		 
 	 
 	 
        </table>
 	   </form>
-	 <center>  
-	 <font color='blue' size='6'>Not registered yet? </<a href='registration.php'>Sign Up Here</a>
-     </font>
+	 
+	
 	 
 	 <?php
 

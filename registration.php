@@ -68,9 +68,11 @@ document.write("<mediam><font color='000000' face='Arial'><b>"+dayarray[day]+", 
      </tr>
        </table>
 	   </form>
-	   <center><b>Already Registered</b><br><a href='login.php'>Login Here</a></br></center>
+	   <center><b>Already Registered</b><br><a href='login.php'>Login Here</a>
+       <br>
+       <a href="javascript:window.print()" onClick="window.print();#">print</a></center>
 	   
-	   <a href="#" onclick="window.print();#">print</a>
+	   
 <?php
 mysql_connect("194.81.104.22", "team5", "group5","db_team5") or die("couldn't connect to server!");
 error_reporting(0);
