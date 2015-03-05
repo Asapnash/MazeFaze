@@ -12,6 +12,8 @@
 
 </head>
 
+
+
 <div align="center">
 <body>
 
@@ -86,7 +88,7 @@
 			setInterval(GetClock,1000);
 			}
 			</script>
-		`	
+			
 
    		</div>
 	</td>
@@ -106,76 +108,50 @@
 
 
   	<div id="Sub1"><!-------Main Sub 1 Container------------>
-
+    
+    
 		<div id="Login">
-         
         
+
 		  <table width="150" height="270"  style=" margin-left:5%;">
 			  <tr>
-     		 		<td width="137">
-<form method='post' action='login.php'>
-      <table width='286' border='10' align='center'>
+   		 		<td width="137">
+                
+                <form method='post' action='login.php'>
+   		 		  <table width='286' border='10' align='center'>
 	  <tr>
-	     <td align='center' colspan='6'><h1>Login Form</h1></td>
+      
+
+	     <td align='center' colspan='6'><h1>Login</h1></td>
+         
+   
      </tr>	
      <tr>
-	     <td align='center'>User Name:</td>
-		 <td> <input type='text' name='name' /></td>
-     </tr>
+	     <td align='center'>Username:</td>
+		 <td> <input type='text' name='Name' /></td>
+      </tr>   
+        
+     
      <tr>
 	     <td align='center'>Password:</td>
-		 <td> <input type='Password' name='pass' /></td>
-     </tr>
-     
-     
+		 <td> <input type='Password' name='Password' /></td>
+     </tr>     
+     	 
      <tr>
      
-   
-     
-	     <td colspan='6' align='center'><br><input type='submit' name='login' value='Login' />
-        <br><br>
-          <font size='4'>Not registered yet? 
-     <br>
-     <a href='registration.php'>Sign Up Here</a>
-     </font></td>
+	     <td colspan='6' align='center'><p><br>
+	       <input type='submit' name='login' value='Login' />
+	       <br><br>
+	       <font size='4'>Not registered yet? 
+	         <br>
+	         <a href='registration.php'>Sign Up Here</a></font></p>
+	      </td>
      </tr>		 
 	 
 	 
        </table>
-	   </form>
-	 
-	
-	 
-	 <?php
-
-mysql_connect("194.81.104.22", "team5", "group5","db_team5") or die("couldn't connect to server!");
-mysql_select_db("db_team5");
-
-if(isset($_POST['submit']))
-{
-	$password =$_POST['pass'];
-	$email = $_POST['email'];
-	$check_user = "select * from users where user_pass='$password' AND user_email='$email'";
-	$run = mysql_query($check_user);
-	if(mysql_num_rows($run)>0)
-	    {
-	   echo "<script>window.open('welcome.php','_self)</script>";
-	     }
-	else
-		{
-	   echo "<script>alert(Email or Password is incorrect')</script>";
-	   }
-   }
-
-$db=new mysql("194.81.104.22", "team5", "group5","db_team5") or die("couldn't connect to server!");
-
-$sql = "INSERT INTO login VALUES('','".$_POST['user_name']."','".$_POST['user_pass']."')";
-if (!$db->query($sql)){
-	die('There was an error running this query'. $db->error);
-}
-?>
-      				</td>
-				 </tr>
+	   </form></td>
+		    </tr>
 	  		</table>
 		 </div>
 

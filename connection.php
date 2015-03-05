@@ -1,11 +1,46 @@
 
 <?php
-session_start();
-$con = mysql_connet("194.81.104.22", "team5", "group5","db_team5") or die("couldn't connect to server!");
 
-if (mysqli_connect_errno())
-   {
-   echo "couldn't connect to server! " . mysqli_connect_error();
-   } 
-   
+$servername = "194.81.104.22";
+$username = "team5";
+$password = "group5";
+$dbname = "db_team5";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
