@@ -34,7 +34,7 @@ document.write("<mediam><font color='000000' face='Arial'><b>"+dayarray[day]+", 
 
 
 
-<form name="reg" action="Insert.php"  method="post">
+<form name="reg" action="insert.php"  method="post">
 
 
 

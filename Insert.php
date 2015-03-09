@@ -17,7 +17,7 @@ $sql = "INSERT INTO Registration (Firstname,Surname,Gender,Age,Username,Password
 VALUES ('$Firstname','$Surname','$Gender','$Age','$Username','$Password', '$Email')";
 
 if (mysqli_query($conn, $sql)) {
-    header('Location: Sucess.php');
+    header('Location: success.php');
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
