@@ -81,10 +81,10 @@ if(isset($_SESSION['login_user'])){
 header("location: profile.php");
 }
 ?>
-      <table width="150" height="270"  style=" margin-left:5%;">
+      <table width="150" height="270"  style=" margin-left:40%;">
         <tr>
           <td width="137"><form action="" method="post">
-              <table width='286' border='10' align='center'>
+              <table width='271' border='10' align='center'>
                 <tr>
                   <td align='center' colspan='6'><h1> Login</h1></td>
                 </tr>
