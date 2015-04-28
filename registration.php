@@ -2,11 +2,10 @@
      <head>
           <title>Registration Form</title>
 
-		  <style type='text/css'>
-
+<style type="text/css">
 body {
-	background-color:orange;
-	;
+	background-image: url(url(Images/gte.jpg));
+	
 }
 </style>
 
