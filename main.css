@@ -2,6 +2,8 @@
 /* CSS Document */
 
 <style type="text/css">
+
+
 #Banner {
 	height: 125px;
 	width: 1024px;
@@ -19,12 +21,17 @@
 	height: 448px;
 	width: 377px;
 	float: left;
+	background-image: url(Images/parchment-bgd.png);
+	background-repeat:no-repeat;
 }
+
 #Sub2 {
 	height: 448px;
 	width: 522px;
 	float: none;
 	text-align:center;
+	
+	
 
 }
 
@@ -38,17 +45,21 @@
 }
 
 #Sub2news {
-	height: 448px;
-	width: 522px;
+	height: 800px;
+	width: 600px;
 	float: none;
-	text-align: left;
-	
+	text-align: center;
+	background-image:url(Images/parchmentfaq.png);
+	background-repeat:no-repeat;
+	background-position:inherit;
 }
 
 #footer {
 	height: 35px;
 	width: 1024px;
-	bottom:0;
+	bottom:0px;
+	
+    
 	
 }
 
@@ -62,9 +73,21 @@
 	height: 45px;
 	width: 1024px;
 	text-align:left;
+	color:#F00
 		
 }
- 
 
-	
+.question {
+	color: #F00;
+}
+#main #Sub2news table tr td .faq .answer-wrapper .answer {
+	color: #00F;
+}
+#main #Sub2news table tr td .answer-wrapper .answer {
+	color: #00F;
+}
+#main #Sub2news table tr td .faq .answer-wrapper .answer {
+	color: #000;
+} 
+
 </style>

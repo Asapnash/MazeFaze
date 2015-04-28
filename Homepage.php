@@ -5,6 +5,14 @@
 <title>Maze Faze</title>
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+body {
+	background-image: url(Images/wall.jpg);
+}
+</style>
+
+
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 <div align="center">
@@ -24,17 +32,7 @@
         <li><a href="Support.html #Tutorial">Tutorial</a></li>
       </ul>
     </li>
-    <li><a class="MenuBarItemSubmenu" href="#">Forum</a>
-      <ul>
-        <li><a class="MenuBarItemSubmenu" href="#">Community</a>
-          <ul>
-            <li><a href="NewsUpdate Page.html #NEWS">News</a></li>
-            <li><a href="NewsUpdate Page.html #UPDATE/GIVEAWAY">Updates</a></li>
-          </ul>
-        </li>
-        <li><a href="Support.html">Support</a></li>
-      </ul>
-    </li>
+    
     <li><a href="Support.html #FAQ">FAQ</a></li>
     <li><a href="Contact.html">Contact</a></li>
   </ul>
@@ -81,11 +79,12 @@ if(isset($_SESSION['login_user'])){
 header("location: profile.php");
 }
 ?>
-      <table width="150" height="270"  style=" margin-left:40%;">
+      <table width="150" height="270"  style="margin-left:5%;">
         <tr>
           <td width="137"><form action="" method="post">
-              <table width='271' border='10' align='center'>
+              <table width='271' align='center'>
                 <tr>
+                	<p>&nbsp;</p>
                   <td align='center' colspan='6'><h1> Login</h1></td>
                 </tr>
                 <tr>
@@ -103,7 +102,8 @@ header("location: profile.php");
                     <br>
                     <font size='4'>Not registered yet? <br>
                     <a href='registration.php'>Sign Up Here</a></font>
-                    </p></td>
+                    </p>
+                    </td>
                 </tr>
               </table>
             </form></td>

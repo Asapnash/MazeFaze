@@ -6,7 +6,15 @@
 
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+<style type="text/css">
+body {
+	background-image: url(Images/wall.jpg);
+	background-repeat:no-repeat;
+}
+</style>
 
 
 </head>
@@ -34,7 +42,7 @@
  	
 <div id="topNavigation"><!-------Top Navigation Container------------>
 	<ul id="MenuBar1" class="MenuBarHorizontal">															 			
-		<li><a href="Homepage.html">Home</a></li>
+		<li><a href="Homepage.php">Home</a></li>
         
   		<li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
    			<ul>
@@ -43,17 +51,7 @@
    			</ul>
    		</li> 
             
-  		<li><a class="MenuBarItemSubmenu" href="#">Forum</a>
-    		<ul>
-      			<li><a class="MenuBarItemSubmenu" href="#">Community</a>
-       				<ul>
-         				<li><a href="NewsUpdate Page.html #NEWS">News</a></li>
-          				<li><a href="NewsUpdate Page.html #UPDATE/GIVEAWAY">Updates</a></li>
-       			 	</ul>
-     		 	</li>
-     		 	<li><a href="Support.html">Support</a></li>
-   			</ul>
- 	 	</li>
+  		
   
   		<li><a href="Support.html #FAQ">FAQ</a></li>
  
@@ -105,67 +103,61 @@
 <div id="main"><!-------Main Container------------>
 
 
-  	<div id="Sub1"><!-------Main Sub 1 Container------------>
-
-		<div id="Login">
-		  <table width="150" height="270" border="1" style=" margin-left:50%;">
-			  <tr>
-     		 		<td width="137">
-                    	<div align="center">
-							<form method="get" action="#">
-   							Username: <input name="Username" type="text" size="15"><br>
-							Password: <input name="Password" type="text" size="15"><br><br>
-   							<input type="submit" value="Login"/>
-							</form>
-    						<br>  
-    						<a href="Registration.php">SignUp</a>
-    						<br>
-   							<a href="#">Forgotten Password</a>
-                        </div>
-      				</td>
-				 </tr>
-	  		</table>
-		 </div>
-
-
-  </div><!-------End Main Sub 1 Container------------>
+  
 
 
 
 	<div id="Sub2news"><!-------Main Sub 2 Container------------>
     	
-        <table width="390" height="429" border="1"style=" margin-left:40%;">
+        <table width="400" height="600" style="margin-left: 2cm;">
   			<tr>
-    			<td height="422">
+    			<td width="400" height="600">
                 
-                		<table width="380" height="395" border = "1">
-  <tr>
+                		
   
-    <td><p><u><strong>TUTORIAL</strong></u></p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p></td>
-    
-    
-    
-    
-    
-    
-  </tr>
-  <tr>
-    <td><p><u><strong>FAQ</strong></u></p>
-      <p>&nbsp;</p>
-    
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p></td>
-  </tr>
-</table>
+ 
+    <p align="center"><u><strong>FAQ</strong></u></p>
+     
+        <div class="faq">
+            <p align="center" class="question">
+            1.How to play the game?</p>
+            <div class="answer-wrapper">
+                <p align="center" class="answer">Answer:</p>
+                <p align="center" class="answer">First you need to download the game from the game page then install it into your machine</p>
+            </div>
+            <p align="center" class="question">
+                2.How can i track down my highscore?</p>
+            <div class="answer-wrapper">
+                <p align="center" class="answer">Answer:</p>
+                <p align="center" class="answer">First you need to register into the website and all your score will be recoreded and displayed in your profile page</p>
+            </div>
+             <p align="center" class="question">
+                3.How to register in the page?</p>
+            <div class="answer-wrapper">
+				<p align="center" class="answer">Answer:</p>
+				<p align="center" class="answer">You can click on the&quot;Sign Up&quot; button just under the login form in the homepage.</p>
+            </div>
+        
+            <p align="center" class="question">
+                4.How can i complain or leave feedback?
+            </p>
+            <div class="answer-wrapper">
+				<p align="center" class="answer">Answer:</p>
+				<p align="center" class="answer">You can do that using the contact form on the contact page.</p>
+            </div>
+            
+            <p align="center" class="question">
+                5.Can i contribute and give ideas for the game/website for future improvement?
+            </p>
+            <div class="answer-wrapper">
+				<p align="center" class="answer">Answer:</p>
+				<p align="center" class="answer">Offcourse we would like that and appreciate it very much, this is a very new website and we have a lot to improve therefore  any ideas are very welcome. you can contact us on the contact page through the contact form.</p>
+            </div> 
+            </div>
+        
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="Jquery-faq.js"></script>
+	  </table>
 
                 
                 
@@ -185,6 +177,8 @@
   <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
+       <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
+       <p>&nbsp;</p>
       
 <div id="footer"><!-------Footer Container------------>
 
