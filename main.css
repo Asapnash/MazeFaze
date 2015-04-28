@@ -36,10 +36,12 @@
 }
 
 #Sub2contact {
-	height: 448px;
+	height: 800px;
 	width: 522px;
-	float: left;
+	float: center;
 	text-align:center;
+	background-image:url(Images/wanted.jpg);
+	background-repeat:no-repeat;
 	
 	
 }
@@ -62,7 +64,6 @@
     
 	
 }
-
 
 #login {
 	height: 270px;

@@ -7,7 +7,11 @@
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
-
+ <style type="text/css">
+body {
+	background-image: url(Images/wall.jpg);
+}
+</style>
 
 </head>
 
@@ -110,7 +114,7 @@
   			<tr>
     			<td height="422">
                 
-                		<table width="450" height="420" border = "1" style=" margin-left:5%;">
+                		<table width="450" height="420"  style=" margin-left:5%;">
   <tr>
     <td> 
    
@@ -122,12 +126,19 @@
 
 
 <div class="articles2">
+
+<p>&nbsp;</p>
+
 <h2> Write to us </h2>
 
 <div align="left">
 <div style="padding-left: 50px; line-height: 15px;">
 
+
  <form name="myForm" onsubmit="return Validation()" action="#" method="post">
+
+ <form name="myForm" onsubmit="return Validation()" action="mazefaze5@gmail.com" method="post">
+
 
 First name: <input type="text" name="firstname" />
 <br><br>  
@@ -171,6 +182,10 @@ function funky()
 <script type="text/javascript">
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 
 </body>
 </div>
