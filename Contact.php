@@ -5,11 +5,12 @@
 <title>Maze Faze</title>
 
 <link href="main.css" rel="stylesheet" type="text/css">
-<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<link href="SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
  <style type="text/css">
 body {
 	background-image: url(Images/wall.jpg);
+	background-size:cover;
 }
 </style>
 
@@ -21,7 +22,7 @@ body {
 <div id="Banner"><!-------Banner Container------------>
 	
 		
-    	<A href="Homepage.html">
+    	<A href="Homepage.php">
   <IMG SRC="http://images.clipartpanda.com/banner-20clipart-normal_1283818525.jpg" 				BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!">
   </A>
   	
@@ -38,30 +39,19 @@ body {
  	
 <div id="topNavigation"><!-------Top Navigation Container------------>
 	<ul id="MenuBar1" class="MenuBarHorizontal">															 			
-		<li><a href="Homepage.html">Home</a></li>
+		<li><a href="Homepage.php">Home</a></li>
         
   		<li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
    			<ul>
       			<li><a href="Game Page.html">Download</a></li>
-     			<li><a href="Support.html #Tutorial">Tutorial</a></li>
+     			<li><a href="Support.html">Tutorial</a></li>
    			</ul>
    		</li> 
             
-  		<li><a class="MenuBarItemSubmenu" href="#">Forum</a>
-    		<ul>
-      			<li><a class="MenuBarItemSubmenu" href="#">Community</a>
-       				<ul>
-         				<li><a href="NewsUpdate Page.html #NEWS">News</a></li>
-          				<li><a href="NewsUpdate Page.html #UPDATE/GIVEAWAY">Updates</a></li>
-       			 	</ul>
-     		 	</li>
-     		 	<li><a href="Support.html">Support</a></li>
-   			</ul>
- 	 	</li>
   
-  		<li><a href="Support.html #FAQ">FAQ</a></li>
+  		<li><a href="Support.html">FAQ</a></li>
  
- 	 	<li><a href="Contact.html">Contact</a></li>
+ 	 	<li><a href="Contact.php">Contact</a></li>
  
 	</ul>
     

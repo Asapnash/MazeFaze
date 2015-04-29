@@ -8,8 +8,17 @@ include('session.php');
 <meta charset="utf-8">
 <title>Maze Faze</title>
 <link href="main.css" rel="stylesheet" type="text/css">
-<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<link href="SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+<style type="text/css">
+body {
+	background-image: url(Images/profile.jpg);
+	background-size:cover;
+}
+</style>
+
+
 </head>
 <div align="center">
 <body>
@@ -21,26 +30,16 @@ include('session.php');
 <p>&nbsp;</p>
 <div id="topNavigation"><!-------Top Navigation Container------------>
   <ul id="MenuBar1" class="MenuBarHorizontal">
-    <li><a href="homepage.html">Home</a></li>
-    <li><a class="MenuBarItemSubmenu" href="game Page.html">Game</a>
+    <li><a href="Homepage.php">Home</a></li>
+    <li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
       <ul>
-        <li><a href="game Page.html">Download</a></li>
-        <li><a href="support.html #Tutorial">Tutorial</a></li>
+        <li><a href="Game Page.html">Download</a></li>
+        <li><a href="Support.html">Tutorial</a></li>
       </ul>
     </li>
-    <li><a class="MenuBarItemSubmenu" href="#">Forum</a>
-      <ul>
-        <li><a class="MenuBarItemSubmenu" href="#">Community</a>
-          <ul>
-            <li><a href="NewsUpdate Page.html #NEWS">News</a></li>
-            <li><a href="NewsUpdate Page.html #UPDATE/GIVEAWAY">Updates</a></li>
-          </ul>
-        </li>
-        <li><a href="Support.html">Support</a></li>
-      </ul>
-    </li>
-    <li><a href="Support.html #FAQ">FAQ</a></li>
-    <li><a href="Contact.html">Contact</a></li>
+    
+    <li><a href="Support.html">FAQ</a></li>
+    <li><a href="Contact.php">Contact</a></li>
   </ul>
   <table style=" margin-left:68%;">
     <!-------Website CLock ------------>
@@ -64,7 +63,8 @@ include('session.php');
 			setInterval(GetClock,1000);
 			}
 			</script> 
-        </div></td>
+        </div>
+        </td>
     </tr>
   </table>
   <!-------End of Website Clock------------> 
@@ -75,15 +75,17 @@ include('session.php');
 <p>&nbsp;</p>
 <div id="main"><!-------Main Container------------>
   
-  <div id="Sub1"><!-------Main Sub 1 Container------------>
+  <div id="Sub1profile"><!-------Main Sub 1 Container------------>
     
-    <div id="Login">
-      <table width="150" height="270"  style=" margin-left:50%;">
+        <div id="Login">
+      <table width="150" height="270"  style=" margin-left:5%;">
         <tr>
           <td width="137"><form action="" method="post">
-              <table width='194' height="270" border='10' align='center'>
+              <table width='194' height="270"  align='center'>
                 <tr>
-                  <td width="166" align='center'><p><b id="welcome">Welcome : <i><?php echo $login_session; ?></i></b></p>
+                  <td width="166" align='center'>
+                  <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>       
+                  <p><b id="welcome">Welcome : <i><?php echo $login_session; ?></i></b></p>
                     <p>&nbsp;</p>
                     <p> <b id="logout"><a href="logout.php">Log Out</a></b></p></td>
                 </tr>
@@ -95,7 +97,7 @@ include('session.php');
   </div>
   <!-------End Main Sub 1 Container------------>
   
-  <div id="Sub2"><!-------Main Sub 2 Container------------>
+  <div id="Sub2profile"><!-------Main Sub 2 Container------------>
     <table width="390" height="429" style=" margin-left:40%;">
       <tr>
         <td height="422"><table width="380" height="420" border = "1">

@@ -4,11 +4,12 @@
 <meta charset="utf-8">
 <title>Maze Faze</title>
 <link href="main.css" rel="stylesheet" type="text/css">
-<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<link href="SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
 body {
 	background-image: url(Images/wall.jpg);
+	background-size:cover;
 }
 </style>
 
@@ -19,22 +20,22 @@ body {
 <body>
 <div id="Banner"><!-------Banner Container------------> 
   
-  <A href="Homepage.html"> <IMG SRC="http://images.clipartpanda.com/banner-20clipart-normal_1283818525.jpg" 				BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!"> </A> </div>
+  <A href="Homepage.php"> <IMG SRC="http://images.clipartpanda.com/banner-20clipart-normal_1283818525.jpg" 				BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!"> </A> </div>
 <!-------End Banner Container------------>
 
 <p>&nbsp;</p>
 <div id="topNavigation"><!-------Top Navigation Container------------>
   <ul id="MenuBar1" class="MenuBarHorizontal">
-    <li><a href="Homepage.html">Home</a></li>
+    <li><a href="Homepage.php">Home</a></li>
     <li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
       <ul>
         <li><a href="Game Page.html">Download</a></li>
-        <li><a href="Support.html #Tutorial">Tutorial</a></li>
+        <li><a href="Support.html">Tutorial</a></li>
       </ul>
     </li>
     
-    <li><a href="Support.html #FAQ">FAQ</a></li>
-    <li><a href="Contact.html">Contact</a></li>
+    <li><a href="Support.html">FAQ</a></li>
+    <li><a href="Contact.php">Contact</a></li>
   </ul>
   <table style=" margin-left:68%;">
     <!-------Website CLock ------------>

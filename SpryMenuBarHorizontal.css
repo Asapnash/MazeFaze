@@ -106,8 +106,8 @@ ul.MenuBarHorizontal a
 	padding: 0.5em 0.75em;
 	color: #000;
 	text-decoration: blink;
-	background-image:url(file:///C|/Users/G75V/Desktop/Github%20Group%20Project/MazeFaze/Images/Wooden-7.jpg);
-}
+	background-image:url(Images/Wooden-7.jpg)	;
+	
 /* Menu items that have mouse over or focus have a blue background and white text */
 ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
 {
@@ -132,13 +132,13 @@ ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubme
 /* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarHorizontal a.MenuBarItemSubmenu
 {
-	background-image:url(file:///C|/Users/G75V/Desktop/Github%20Group%20Project/MazeFaze/Images/Wooden-7.jpg)	background-repeat: no-repeat;
+background-image:url(Images/Wooden-7.jpg)	;
 	
 }
 /* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
 {
-	background-image:url(file:///C|/Users/G75V/Desktop/Github%20Group%20Project/MazeFaze/Images/Wooden-7.jpg);
+	background-image:url(Images/Wooden-7.jpg)	;
 	
 	background-repeat: no-repeat;
 	
@@ -147,14 +147,14 @@ ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
 /* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarHorizontal a.MenuBarItemSubmenuHover
 {
-	background-image:url(file:///C|/Users/G75V/Desktop/Github%20Group%20Project/MazeFaze/Images/Wooden-7.jpg);
+	background-image:url(Images/Wooden-7.jpg)	;
 	background-repeat: no-repeat;
 	
 }
 /* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
 ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover
 {
-	background-image:url(file:///C|/Users/G75V/Desktop/Github%20Group%20Project/MazeFaze/Images/Wooden-7.jpg);
+	background-image:url(Images/Wooden-7.jpg)	;
 	background-repeat: no-repeat;
 	
 }

@@ -24,8 +24,29 @@
 	background-image: url(Images/parchment-bgd.png);
 	background-repeat:no-repeat;
 }
-
+ 
+#Sub1profile {
+	height: 448px;
+	width: 377px;
+	float: left;
+	background-image:url(Images/login.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 300px 450px;
+	
+	
+}
+ 
 #Sub2 {
+	height: 448px;
+	width: 522px;
+	float: none;
+	text-align:center;
+	
+	
+
+}
+#Sub2profile {
 	height: 448px;
 	width: 522px;
 	float: none;
@@ -56,6 +77,17 @@
 	background-position:inherit;
 }
 
+#Registration {
+	height: 800px;
+	width: 600px;
+	float: none;
+	text-align: center;
+	background-image:url(Images/registerpaper.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+
 #footer {
 	height: 35px;
 	width: 1024px;
@@ -64,6 +96,15 @@
     
 	
 }
+
+#profilelogin {
+	height: 270px;
+	width: 160px;
+	float:left;
+	
+	
+}
+
 
 #login {
 	height: 270px;

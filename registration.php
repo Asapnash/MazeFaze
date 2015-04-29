@@ -1,45 +1,133 @@
+</body>		 
+</html>
+ <!doctype html>
 <html>
-     <head>
-          <title>Registration Form</title>
+<head>
+<meta charset="utf-8">
+<title>Maze Faze</title>
+
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 
 <style type="text/css">
 body {
-	background-image: url(url(Images/gte.jpg));
-	
+	background-image: url(Images/gte.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 </style>
 
-     </head>
-     
-     
+
+</head>
+
+<div align="center">
 <body>
 
-<script language="javascript" type="text/javascript">     
-
-var mydate=new Date()
-var year=mydate.getYear()
-if (year < 1000)
-year+=1900
-var day=mydate.getDay()
-var month=mydate.getMonth()
-var daym=mydate.getDate()
-if (daym<10)
-daym="0"+daym
-var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
-var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
-document.write("<mediam><font color='000000' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small>")
-</script>
+<div id="Banner"><!-------Banner Container------------>
+	
+		
+    	<A HREF="Homepage.php">
+  <IMG SRC="http://images.clipartpanda.com/banner-20clipart-normal_1283818525.jpg" 				BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!">
+  </A>
+  	
 
 
+</div><!-------End Banner Container------------>
 
 
+<p>&nbsp;</p>
+
+
+    
+    
+ 	
+<div id="topNavigation"><!-------Top Navigation Container------------>
+	<ul id="MenuBar1" class="MenuBarHorizontal">															 			
+		<li><a href="Homepage.php">Home</a></li>
+        
+  		<li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
+   			<ul>
+      			<li><a href="Game Page.html">Download</a></li>
+     			<li><a href="Support.html #Tutorial">Tutorial</a></li>
+   			</ul>
+   		</li> 
+            
+  		
+  
+  		<li><a href="Support.html #FAQ">FAQ</a></li>
+ 
+ 	 	<li><a href="Contact.php">Contact</a></li>
+ 
+	</ul>
+    
+    
+    
+   
+  <table style=" margin-left:68%;"><!-------Website CLock ------------>
+  <tr>
+    <td>
+    	<div id="dateTimeValue">
+			<script type="text/javascript">
+			function GetClock(){
+			var d=new Date();
+			var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear(),nhour=d.getHours(),nmin=d.getMinutes(),ap;
+     		if(nhour==0){ap=" AM";nhour=12;}
+			else if(nhour<12){ap=" AM";}
+			else if(nhour==12){ap=" PM";}
+			else if(nhour>12){ap=" PM";nhour-=12;}
+			if(nyear<1000) nyear+=1900;
+			if(nmin<=9) nmin="0"+nmin;
+
+			document.getElementById('dateTimeValue').innerHTML=""+(nmonth+1)+"/"+ndate+"/"+nyear+" "+nhour+":"+nmin+ap+"";
+			}
+			window.onload=function(){
+			GetClock();
+			setInterval(GetClock,1000);
+			}
+			</script>
+		`	
+
+   		</div>
+	</td>
+  </tr>
+</table><!-------End of Website Clock------------>
+
+
+
+</div><!-------End Top Navigation Container------------>
+	
+
+
+
+
+
+<div id="main"><!-------Main Container------------>
+
+
+  
+
+
+
+	<div id="Registration"><!-------Main Sub 2 Container------------>
+    	
+        <table width="400" height="600" style="margin-left: 3cm;">
+  			<tr>
+    			<td width="400" height="600">
+                
+                		
+  
+ 
+  
 <form name="reg" action="insert.php"  method="post">
 
 
 
-    <table width='286' border='10' align='center'>
+    <table width='286'  align='center'>
 	   	<tr>
 	     	<td align='center' colspan='6'>
+            <p>&nbsp;</p><p>&nbsp;</p>
             	<h1>Registration From</h1>
             	<div align="center">
                 
@@ -92,7 +180,7 @@ document.write("<mediam><font color='000000' face='Arial'><b>"+dayarray[day]+", 
             </td>
      	</tr>		  
 		<tr>
-	     	<td colspan='6' align='center'>
+	     	<td colspan='1' align='center'>
             	<input type='submit' name='submit' value='Register'/>
            	</td>
      	</tr>
@@ -112,11 +200,47 @@ document.write("<mediam><font color='000000' face='Arial'><b>"+dayarray[day]+", 
   <a href="javascript:window.print()" onClick="window.print();#">Print</a>
   </center>
 	   
+	  </table>
+  
+                
+                </td>
+		        </tr>
+		</table>
 
-	   
-	   
-	   
-	   
+ 	</div><!-------End Main Sub 2 Container------------>
 
-</body>		 
+</div><!-------End Main Container------------>
+
+  <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+       <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
+      
+      
+<div id="footer"><!-------Footer Container------------>
+
+
+
+<a href="#">Links</a>
+&nbsp;&nbsp;
+<a href="#">Links</a>
+&nbsp;&nbsp;
+<a href="#">Links</a>
+&nbsp;&nbsp;
+<a href="#">Links</a>
+&nbsp;&nbsp;
+<a href="#">Links</a>
+
+
+
+</div><!-------End Footer Container------------>
+
+
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+
+</body>
+</div>
 </html>
