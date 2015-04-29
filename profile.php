@@ -41,7 +41,8 @@ body {
     <li><a href="Support.html">FAQ</a></li>
     <li><a href="Contact.php">Contact</a></li>
   </ul>
-  <table style=" margin-left:68%;">
+  
+  <table style=" margin-left:95%;">
     <!-------Website CLock ------------>
     <tr>
       <td><div id="dateTimeValue"> 
@@ -73,12 +74,13 @@ body {
 <!-------End Top Navigation Container------------>
 
 <p>&nbsp;</p>
-<div id="main"><!-------Main Container------------>
+<div id="profilemain"><!-------Main Container------------>
   
   <div id="Sub1profile"><!-------Main Sub 1 Container------------>
     
         <div id="Login">
-      <table width="150" height="270"  style=" margin-left:5%;">
+        
+      <table width="150" height="270"  style=" margin-left:33%;">
         <tr>
           <td width="137"><form action="" method="post">
               <table width='194' height="270"  align='center'>
@@ -98,10 +100,10 @@ body {
   <!-------End Main Sub 1 Container------------>
   
   <div id="Sub2profile"><!-------Main Sub 2 Container------------>
-    <table width="390" height="429" style=" margin-left:40%;">
+    <table width="430" height="420" style=" margin-left: 20%;">
       <tr>
-        <td height="422"><table width="380" height="420" border = "1">
-            <tr>
+        <td height="422"><table width="450" height="420" border = "1" 
+        bordercolor="#FFCC00"          <tr>
               <td> Username:</td>
               <td><?php echo $login_session; ?></td>
             </tr>
@@ -132,8 +134,7 @@ body {
 </div>
 <!-------End Main Container------------>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 <p>&nbsp;</p>
 <div id="footer"><!-------Footer Container------------> 
   

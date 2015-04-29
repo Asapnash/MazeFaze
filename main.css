@@ -15,7 +15,7 @@
 }
 #main {
 	height: 500px;
-	width: 1024px;s
+	width: 1024px;
 }
 #Sub1 {
 	height: 448px;
@@ -26,9 +26,11 @@
 }
  
 #Sub1profile {
+	
 	height: 448px;
-	width: 377px;
+	width: 550px;
 	float: left;
+	color:#000;
 	background-image:url(Images/login.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
@@ -46,14 +48,16 @@
 	
 
 }
-#Sub2profile {
-	height: 448px;
-	width: 522px;
-	float: none;
+#profilemain {
+	height: 700px;
+	width: 1200px;
+	padding-top: 120px;
 	text-align:center;
-	background-image: url(Images/parchment-bgd.png);
-	background-position: right;
+	background-image:url(Images/profile.png);
+	background-size: 1200px 700px;
 	background-repeat:no-repeat;
+	color:#FF0;
+	
 	
 
 }
