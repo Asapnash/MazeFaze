@@ -117,7 +117,7 @@ body {
 
 <div class="articles2">
 
-<h2> Write to us </h2>
+
 
 <div align="left">
 <div style="padding-left: 50px; line-height: 15px;">
@@ -126,8 +126,9 @@ body {
  <form name="myForm" onsubmit="return Validation()" action="#" method="post">
 
  <form name="myForm" onsubmit="return Validation()" action="mazefaze5@gmail.com" method="post">
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <em>First name:
 <input type="text" name="firstname" />
 <br><br>  
@@ -139,8 +140,8 @@ Last name: <input type="text" name="lastname" />
 <p><em> What is your sex</em></p>
 
 <em>
-<input type="checkbox" name="sex" value="male" /> 
-Male<br/>
+<input type="checkbox" name="sex" value="male" /> Male
+<br/>
 <input type="checkbox" name="sex" value="female" /> Female
 
 
@@ -150,8 +151,8 @@ Male<br/>
 
 
 <em>
-<input type="radio" name="boolean" value="Yes" /> 
-YES<br />
+<input type="radio" name="boolean" value="Yes" /> YES
+<br />
 <input type="radio" name="boolean" value="NO" /> NO
 
 <div align="center">
