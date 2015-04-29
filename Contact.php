@@ -111,13 +111,11 @@ body {
 
 <div class="articles"><!--------Contatct info----->
 
-<h2> Contact</h2>
-<p>To contact  for more information fill out the form below.</p>
-
-
-<div class="articles2">
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<div class="articles2">
 
 <h2> Write to us </h2>
 
@@ -130,34 +128,43 @@ body {
  <form name="myForm" onsubmit="return Validation()" action="mazefaze5@gmail.com" method="post">
 
 
-First name: <input type="text" name="firstname" />
+<em>First name:
+<input type="text" name="firstname" />
 <br><br>  
 Last name: <input type="text" name="lastname" />
 
 
 
-<p> What is your sex</p>
+</em>
+<p><em> What is your sex</em></p>
 
-<input type="checkbox" name="sex" value="male" /> Male<br/>
+<em>
+<input type="checkbox" name="sex" value="male" /> 
+Male<br/>
 <input type="checkbox" name="sex" value="female" /> Female
 
 
 
-<p> Do you have any complaints about the website?</p>
+</em>
+<p><em> Do you have any complaints about the website?</em></p>
 
 
-<input type="radio" name="boolean" value="Yes" /> YES<br />
+<em>
+<input type="radio" name="boolean" value="Yes" /> 
+YES<br />
 <input type="radio" name="boolean" value="NO" /> NO
 
 <div align="center">
 Write comments here: <br>
-<textarea name="comments" rows="13" cols="40"></textarea><br><br>
+<textarea name="comments" rows="13" cols="40"></textarea>
+<br><br>
 
 
   <input type = "reset" value = "Clear Your Entries">
    <input type="submit" value="submit" onclick="funcky()">
    
-  </form>
+  </em>
+ </form>
 </div>  
 
 <script type=text/javascript">

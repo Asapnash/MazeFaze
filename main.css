@@ -51,7 +51,9 @@
 	width: 522px;
 	float: none;
 	text-align:center;
-	
+	background-image: url(Images/parchment-bgd.png);
+	background-position: right;
+	background-repeat:no-repeat;
 	
 
 }
