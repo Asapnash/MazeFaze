@@ -20,7 +20,7 @@ body {
 <body>
 <div id="Banner"><!-------Banner Container------------> 
   
-  <A href="Homepage.php"> <IMG SRC="http://images.clipartpanda.com/banner-20clipart-normal_1283818525.jpg" 				BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!"> </A> </div>
+  <A href="Homepage.php"> <IMG SRC="Images/logo.png"BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!"> </A> </div>
 <!-------End Banner Container------------>
 
 <p>&nbsp;</p>
