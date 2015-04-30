@@ -120,7 +120,7 @@ body {
   
  
   
-<form name="reg" action="insert.php"  method="post">
+<form name="reg" action="Insert.php"  method="post">
 
 
 
