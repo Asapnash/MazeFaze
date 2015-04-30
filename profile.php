@@ -24,7 +24,7 @@ body {
 <body>
 <div id="Banner"><!-------Banner Container------------> 
   
-  <A href="Homepage.html"> <IMG SRC="http://images.clipartpanda.com/banner-20clipart-normal_1283818525.jpg" 				BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!"> </A> </div>
+  <A href="Homepage.html"> <IMG SRC="Images/logo.png"BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!"> </A> </div>
 <!-------End Banner Container------------>
 
 <p>&nbsp;</p>
@@ -138,7 +138,7 @@ body {
 <p>&nbsp;</p>
 <div id="footer"><!-------Footer Container------------> 
   
-  <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> </div>
+  <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> </div>
 <!-------End Footer Container------------> 
 
 <script type="text/javascript">
