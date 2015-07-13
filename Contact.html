@@ -121,51 +121,27 @@ body {
 
 <div align="left">
 <div style="padding-left: 50px; line-height: 15px;">
-
-
- <form name="myForm" onsubmit="return Validation()" action="#" method="post">
-
- <form name="myForm" onsubmit="return Validation()" action="mazefaze5@gmail.com" method="post">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<em>First name:
-<input type="text" name="firstname" />
-<br><br>  
-Last name: <input type="text" name="lastname" />
+<p>&nbsp;</p>
 
-
-
-</em>
-<p><em> What is your sex</em></p>
-
-<em>
-<input type="checkbox" name="sex" value="male" /> Male
-<br/>
-<input type="checkbox" name="sex" value="female" /> Female
-
-
-
-</em>
-<p><em> Do you have any complaints about the website?</em></p>
-
-
-<em>
-<input type="radio" name="boolean" value="Yes" /> YES
-<br />
-<input type="radio" name="boolean" value="NO" /> NO
-
-<div align="center">
-Write comments here: <br>
-<textarea name="comments" rows="13" cols="40"></textarea>
-<br><br>
-
-
-  <input type = "reset" value = "Clear Your Entries">
-   <input type="submit" value="submit" onclick="funcky()">
-   
-  </em>
- </form>
+<form action="feedback.php" method="post">
+<table border="0" cellpadding="8" cellspacing="8">
+<tr><td><label for="tswname">Name</label>:</td><td><input type="text" name="fullname" id="tswname" size="25" /></td></tr>
+<tr><td><label for="tswemail">Email address</label>:</td><td><input type="text" id="tswemail" name="email" size="25" /></td></tr>
+<tr>
+<td colspan="2">
+<label for="tswcomments">Comments</label>:<br />
+<textarea rows="15" cols="45" name="comments" id="tswcomments"></textarea>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<input type="submit" value="Send Feedback" /></td>
+</tr>
+</table>
+</form>
 </div>  
 
 <script type=text/javascript">

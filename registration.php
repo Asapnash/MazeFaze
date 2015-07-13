@@ -58,7 +58,7 @@ body {
   
   		<li><a href="Support.html #FAQ">FAQ</a></li>
  
- 	 	<li><a href="Contact.php">Contact</a></li>
+ 	 	<li><a href="Contact.html">Contact</a></li>
  
 	</ul>
     
