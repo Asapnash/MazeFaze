@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Maze Faze</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+body {
+	background-image: url(Images/wall.jpg);
+	background-size:cover;
+}
+</style>
+
+
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+<div align="center">
+<body>
+<div id="Banner"><!-------Banner Container------------> 
+  
+  <A href="Homepage.php"> <IMG SRC="Images/logo.png"BORDER="0" WIDTH="600" HEIGHT="80" ALT="Come to my page!"> </A> </div>
+<!-------End Banner Container------------>
+
+<p>&nbsp;</p>
+<div id="topNavigation"><!-------Top Navigation Container------------>
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="Homepage.php">Home</a></li>
+    <li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
+      <ul>
+        <li><a href="Game Page.html">Download</a></li>
+        <li><a href="Support.html">Tutorial</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="Support.html">FAQ</a></li>
+    <li><a href="Contact.php">Contact</a></li>
+      <li><a href="Gamelink.html">Gamelink</a></li>
+       <li><a href="news.html">news</a></li>
+  </ul>
+  <table style=" margin-left:68%;">
+    <!-------Website CLock ------------>
+    <tr>
+      <td><div id="dateTimeValue"> 
+          <script type="text/javascript">
+			function GetClock(){
+			var d=new Date();
+			var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear(),nhour=d.getHours(),nmin=d.getMinutes(),ap;
+     		if(nhour==0){ap=" AM";nhour=12;}
+			else if(nhour<12){ap=" AM";}
+			else if(nhour==12){ap=" PM";}
+			else if(nhour>12){ap=" PM";nhour-=12;}
+			if(nyear<1000) nyear+=1900;
+			if(nmin<=9) nmin="0"+nmin;
+
+			document.getElementById('dateTimeValue').innerHTML=""+(nmonth+1)+"/"+ndate+"/"+nyear+" "+nhour+":"+nmin+ap+"";
+			}
+			window.onload=function(){
+			GetClock();
+			setInterval(GetClock,1000);
+			}
+			</script> 
+        </div></td>
+    </tr>
+  </table>
+  <!-------End of Website Clock------------> 
+  
+</div>
+
+<table width="390" height="429" border="1"style=" margin-centre:40%;">
+<tr>
+<td height="422">
+<table width="380" height="395" border = "1">
+<tr>
+<td><p><font color="red"><u><strong>NEWS</strong></u></p></font>
+<p><font color="white">In this section of the site we will provide all the important information and updates to our consumers of what they will be seeing on the Maze Faze webpage.</p></font>
+<p><font color="white">The Maze Faze site would like to refurbish the customers by letting you know that we will be updating and creating better new games every month with more joy and excitement. </p> </font>
+<p><font color="white">The Maze Faze would like to inform you that in the coming weeks their would be a prize giveaway of who can score the highest points.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td><p><font color="red"><u><strong>UPDATE/GIVEAWAYS</strong></u></p></font>
+<p></p>
+<p><font color="white">The Maze Faze will supply with several of gifts and giveaways to our members in a weekly basis</p></font>
+<p><font color="white">There will be a competition being held where you will be competing each other of whoever could score the highest points, the winner would be able to pick up a new iphone 6, second place would get a mini laptop and third place would get a 100 pound amazon voucher.</p></font>
+<p><font color="white">So if you guys want become this week's prize winner you would need to be a Maze Faze member, to register their would be a login page at the top left hand corner. </p></font>
+<p>&nbsp;</p>
+<p>&nbsp;</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div><!-------End Main Sub 2 Container------------>
+</div><!-------End Main Container------------>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="footer"><!-------Footer Container------------> 
+  
+  <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> &nbsp;&nbsp; <a href="#">Links</a> </div>
+<!-------End Footer Container------------> 
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</div>
+</html>
+
+
+
