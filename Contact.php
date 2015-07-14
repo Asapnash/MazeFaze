@@ -90,14 +90,44 @@ body {
 
 </div><!-------End Top Navigation Container------------>
 	
+
+<p>&nbsp;</p>
+
+
+
+<div id="main"><!-------Main Container------------><!-------End Main Sub 1 Container------------>
+
+
+
+	<div id="Sub2contact"><!-------Main Sub 2 Container------------>
+    	<table width="390" height="429" style=" margin-left:5%;">
+  			<tr>
+    			<td height="422">
+                
+                		<table width="450" height="420"  style=" margin-left:5%;">
+  <tr>
+    <td> 
+   
+
+<div class="articles"><!--------Contatct info----->
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="articles2">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <div id="formwrap">
 <div id="form">
+<?php if($form_complete === FALSE): ?>
+<form action= "contact.php" method="post" id="comments">
       <div class="row">
 	  <div class="label">Name</div> <!------end label------>
 	  <div class="input">
-	  <input type="text" id="fullname" class="details" name="fullname" value="" />
+	  <input type="text" id="fullname" class="details" name="fullname" value="<?php echo isset($_POST['fullname'])? $_POST['fullname'] : ''; ?>" /><?php if(in_array('fullname', $validation)): ?><span class="error"><?php echo $error_messages['fullname']; ?></span><?php endif; ?>
 	</div><!-------End input------------>
-	<div class="context">e.g. mazefaze123 or larry nash</div> <!--------end context------>
 	</div><!-------End row------------>
 	</div><!-------End of #form------------>
 </div><!-------End of formwrap------------>
@@ -107,9 +137,8 @@ body {
       <div class="row">
 	  <div class="label">Email</div> <!------end label------>
 	  <div class="input">
-	  <input type="text" id="email" class="details" name="email" value="" />
+	  <input type="text" id="email" class="details" name="email" value="<?php echo isset($_POST['email'])? $_POST['email'] : ''; ?>" /><?php if(in_array('email', $validation)): ?><span class="error"><?php echo $error_messages['email']; ?></span><?php endif; ?>
 	</div><!-------End input------------>
-	<div class="context">We will not send any spam to your email.</div> <!--------end context------>
 	</div><!-------End row------------>
 	</div><!-------End of #form------------>
 </div><!-------End of formwrap------------>
@@ -119,18 +148,42 @@ body {
       <div class="row">
 	  <div class="label">comment</div> <!------end label------>
 	  <div class="input">
-	  <textarea id="comment" name="comment" class="mess"></textarea>
+	  <textarea name="comment" cols="60" rows="15" class="mess" id="comments_form">
+<?php echo isset($_POST['comment'])? $_POST['comment'] : ''; ?></textarea><?php if(in_array('comment', $validation)): ?><span class="error"><?php echo $error_messages['comment']; ?></span><?php endif; ?>
 	  
 	  <div class="submit">
-	  <input type="submit" id="submit" name="submit" value="Send Message"
+	  <input type="submit" id="submit" name="submit" value="Send Message"/>
+      </div>
+      </form>
+      <?php else: ?>
+<p>Thank you for your Message!</p>
+<?php endif; ?>
+
 	</div><!-------End input------------>
 	</div><!-------End row------------>
 	</div><!-------End of #form------------>
 </div><!-------End of formwrap------------>
+</div>  
+
+<script type=text/javascript">
+function funky()
+    {
+     alert("make sure all parts are filled in correctly!!"):
+    }
+    </script>
+
+
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 
 </body>
 </div>
-
 
 
 

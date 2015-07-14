@@ -35,7 +35,7 @@ body {
     </li>
     
     <li><a href="Support.html">FAQ</a></li>
-    <li><a href="Contact.html">Contact</a></li>
+    <li><a href="Contact.php">Contact</a></li>
   </ul>
   <table style=" margin-left:68%;">
     <!-------Website CLock ------------>
