@@ -46,20 +46,17 @@ body {
 <div id="topNavigation"><!-------Top Navigation Container------------>
 	<ul id="MenuBar1" class="MenuBarHorizontal">															 			
 		<li><a href="Homepage.php">Home</a></li>
-        
-  		<li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
-   			<ul>
-      			<li><a href="Game Page.html">Download</a></li>
-     			<li><a href="Support.html #Tutorial">Tutorial</a></li>
-   			</ul>
-   		</li> 
-            
-  		
-  
-  		<li><a href="Support.html #FAQ">FAQ</a></li>
- 
- 	 	<li><a href="Contact.php">Contact</a></li>
- 
+    <li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
+      <ul>
+        <li><a href="Game Page.html">Download</a></li>
+        <li><a href="Support.html">Tutorial</a></li>
+      </ul>
+    </li>
+    
+    <li><a href="Support.html">FAQ</a></li>
+     <li><a href="news.html">News</a></li>
+      <li><a href="fun.html">Fun</a></li>
+    <li><a href="Contact.php">Contact</a></li>
 	</ul>
     
     

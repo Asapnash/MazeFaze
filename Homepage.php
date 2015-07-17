@@ -26,7 +26,7 @@ body {
 <p>&nbsp;</p>
 <div id="topNavigation"><!-------Top Navigation Container------------>
   <ul id="MenuBar1" class="MenuBarHorizontal">
-    <li><a href="Homepage.php">Home</a></li>
+     <li><a href="Homepage.php">Home</a></li>
     <li><a class="MenuBarItemSubmenu" href="Game Page.html">Game</a>
       <ul>
         <li><a href="Game Page.html">Download</a></li>
@@ -35,6 +35,8 @@ body {
     </li>
     
     <li><a href="Support.html">FAQ</a></li>
+     <li><a href="news.html">News</a></li>
+      <li><a href="fun.html">Fun</a></li>
     <li><a href="Contact.php">Contact</a></li>
   </ul>
   <table style=" margin-left:68%;">
